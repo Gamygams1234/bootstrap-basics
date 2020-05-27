@@ -8,21 +8,22 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   </head>
-  <body>
+  <body class = 'bg-info text-white'>
     <!-- this will help the content adjust when we resise it -->
     <!-- we are also centering  all of the content-->
-    <div class="container text-center">
-      <!--  increasing the size of the text -->
-      <h1 class="display-1">Full Stack Conf</h1>
-      <!--  this class will increase the size of the pareagraph -->
-      <p class="lead">Coming soon, a one-day conference aboout all things in Javascript!</p>
-<!-- this will give us our width / we also use mx auto to make sure that it gets centered-->
+    <div class="container text-center ">
+     <!-- here we are setting a top margin -->
+      <h1 class="display-1 mt-5">Full Stack Conf</h1>
+<!-- here there is a bottom margin set -->
+      <p class="lead mb-5">Coming soon, a one-day conference aboout all things in Javascript!</p>
+
       <div class="col-lg-6 mx-auto">
         <!-- this will be our input -->
         <div class="input-group mb-3 ">
             <input type="text" class="form-control" placeholder="Enter you email for info" aria-label="Recipient's username" aria-describedby="basic-addon2">
             <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button">Sign up</button>
+              <!-- fixing the outline of the button -->
+                <button class="btn btn-secondary" type="button">Sign up</button>
             </div>
         </div>
       </div>
